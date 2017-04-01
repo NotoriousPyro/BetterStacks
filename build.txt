@@ -1,0 +1,10 @@
+author = NotoriousPyro
+version = 1.1
+displayName = ItemStack
+homepage = https://pyronexus.com/terraria-itemstack
+hideCode = true
+hideResources = false
+includeSource = false
+buildIgnore = .git\*, root\*, src\*, obj\*, bin\*, .vs\*, .gitattributes, *.config, *.md, LICENSE, *.sln, *.cs.user, *.csproj
+includePDB = false
+languageVersion = 4

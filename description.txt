@@ -1,0 +1,21 @@
+BetterStacks mod by NotoriousPyro
+
+This mod makes the following changes to stack sizes:
+
+Increased from 999 to 9999:
+* All Blocks, Arrows, Bullets, Walls, Fences, Ropes, Bottles, Gels, Paints, Platforms, Shuriken, Cobwebs, Bones, Wood
+
+Increased from 99 to 999:
+* All Acorns, Torches, Bars, Hooks, Grenades and Bombs
+
+Increased to 99:
+* All Potions, Dynamite
+
+Any suggestions? Let me know!
+
+Mod page: https://pyronexus.com/terraria-itemstack
+Source: https://github.com/NotoriousPyro/BetterStacks
+
+-------------
+NotoriousPyro
+PyroNexus.com
