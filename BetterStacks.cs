@@ -6,8 +6,8 @@ namespace BetterStacks
 	{
 		public BetterStacks()
 		{
-            Properties = new ModProperties()
-            {
+			Properties = new ModProperties()
+			{
 				Autoload = true,
 				AutoloadGores = true,
 				AutoloadSounds = true
