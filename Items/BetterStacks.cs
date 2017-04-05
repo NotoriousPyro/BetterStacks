@@ -9,7 +9,15 @@ namespace BetterStacks.Items
 		{
 			if (item.maxStack == 999)
 			{
-				if (ContainsAny(item.name, "Block", "Arrow", "Bullet", "Wall", "Fence", "Rope", "Bottle", "Gel", "Paint", "Platform", "Wood", "Shuriken", "Cobweb", "Bone"))
+				if (ContainsAny(item.name, "Arrow", "Block", "Bone", "Bottle", "Bullet", "Cobweb", "Fence", "Gel", "Paint", "Platform", "Rope", "Shuriken", "Wall", "Wood"))
+				{
+					item.maxStack = 9999;
+				}
+
+				// * 97 - Musket Ball
+				// * 279 - Throwing Knife
+				// * 3379 - Bone Knife
+				else if (item.type == 97 || item.type == 279 || item.type == 3379)
 				{
 					item.maxStack = 9999;
 				}
@@ -17,7 +25,15 @@ namespace BetterStacks.Items
 
 			else if (item.maxStack == 99)
 			{
-				if (ContainsAny(item.name, "Acorn", "Torch", "Bar", "Hook"))
+				if (ContainsAny(item.name, "Acorn", "Bar", "Hook", "Torch"))
+				{
+					item.maxStack = 999;
+				}
+
+				// 1328 - Turtle Scale
+				// 1329 - Tissue Sample
+				// 1330 - Vertebrae
+				else if (item.type >= 1328 && item.type <= 1330)
 				{
 					item.maxStack = 999;
 				}
@@ -28,7 +44,7 @@ namespace BetterStacks.Items
 			// * 453 - Bomb Statue
 			// * 758 - Grenade Launcher
 			// * 3837 - Etherian Goblin Bomber Banner
-			else if (ContainsAny(item.name, "Grenade", "Bomb") && (item.type != 758 && item.type != 453 && item.type != 3837))
+			else if (ContainsAny(item.name, "Grenade", "Bomb") && (item.type != 453 && item.type != 758 && item.type != 3837))
 			{
 				item.maxStack = 999;
 			}
@@ -48,7 +64,9 @@ namespace BetterStacks.Items
 			foreach (string needle in needles)
 			{
 				if (haystack.Contains(needle))
+				{
 					return true;
+				}
 			}
 			return false;
 		}
