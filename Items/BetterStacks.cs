@@ -9,22 +9,20 @@ namespace BetterStacks.Items
 		public override void SetDefaults(Item item)
 		{
 			// ExcludedItemIDs
-			// Only applies to ItemNamesToX not ItemIDsToX
-
-			// ItemID		Item Name							Which list?				Why?
-			// 342			Tiki Torch							ItemNamesTo999			Torch
-			// 343			Barrel								ItemNamesTo999			Bar
-			// 682			Marrow								ItemNamesTo9999			Arrow
-			// 758			Grenade Launcher					ItemNamesTo999			Grenade
-			// 1706			Bar Stool							ItemNamesTo999			Bar
-			// 1715			Bar									ItemNamesTo999			Bar
-			// 2456			Dynamite Fish						ItemNamesTo99			Dynamite
-			// 2485			Infected Scabbardfish				ItemNamesTo999			Bar
-			// 2488			Tropical Barracuda					ItemNamesTo999			Bar
-			// 3288			Lazure's Barrier Platform			ItemNamesTo999			Bar
+			// ItemID		Item Name						Which list?				Why?
+			// 342			Tiki Torch						ItemNamesTo999			Torch
+			// 343			Barrel							ItemNamesTo999			Bar
+			// 682			Marrow							ItemNamesTo9999			Arrow
+			// 758			Grenade Launcher				ItemNamesTo999			Grenade
+			// 1706			Bar Stool						ItemNamesTo999			Bar
+			// 1715			Bar								ItemNamesTo999			Bar
+			// 2456			Dynamite Fish					ItemNamesTo99			Dynamite
+			// 2485			Infected Scabbardfish			ItemNamesTo999			Bar
+			// 2488			Tropical Barracuda				ItemNamesTo999			Bar
+			// 3288			Lazure's Barrier Platform		ItemNamesTo999			Bar
 			int[] ExcludedItemIDs = { 342, 343, 682, 758, 1706, 1715, 2456, 2485, 2488, 3288 };
-
 			string[] ExcludedItemNames = { "Banner", "Statue" };
+
 			string[] ItemNamesTo99 = { "Dynamite", "Potion" };
 			string[] ItemNamesTo999 = { "Bar", "Bomb", "Glowstick", "Grenade", "Torch" };
 			string[] ItemNamesTo9999 = { "Arrow", "Block", "Bullet", "Fence", "Javelin", "Platform", "Rope", "Wall" };
