@@ -3,13 +3,13 @@ BetterStacks mod by NotoriousPyro
 This mod makes the following changes to stack sizes:
 
 Increased to 9999:
-* All Arrows, Blocks, Bone Knives, Bones, Bottles, Bullets, Cobwebs, Fences, Gels, Musket Balls, Paints, Platforms, Ropes, Shuriken, Snowballs, Throwing Knives, Walls, Wood
+* All Arrows, Blocks, Throwing Knives and Bone Throwing Knives, Bones, Bottles and Bottled Water, Bullets, Cobwebs, Fences, Gels, Musket Balls, Platforms, Ropes, Shuriken, Snowballs, Walls, Wood
 
 Increased to 999:
-* All Acorns, Bars, Bombs, Glowsticks, Grenades, Hooks, Tissue Sample, Torches, Turtle Scale, Vertebrae
+* Acorn, Bars, Bombs, Feathers, Glowsticks, Grenades, Hooks, Tissue Samples, Torches, Turtle Scales, Vertebrae
 
 Increased to 99:
-* All Dynamite, Potions
+* Dynamite, Potions
 
 Any suggestions? Let me know!
 
@@ -18,17 +18,20 @@ Source: https://github.com/NotoriousPyro/BetterStacks
 All versions: https://pyronexus.com/downloads/BetterStacks/
 
 Changelog:
-1.3
-* Added Glowsticks, Snowballs
+2.0.0
+* Completely rewrote plugin. Can now be easily configured by people and then compiled.
+* Added Feathers
+1.3.0
+* Added Glowsticks, Snowballs.
 * Fixed a bug which prevented bombs and a few other things getting the stack bonuses.
-1.2
-* Added Bone Knives, Musket Balls, Throwing Knives, Tissue Sample, Turtle Scale, Vertebrae
-* Tidied up code a little
-* Fixed a few things
-1.1
+1.2.0
+* Added Bone Knives, Musket Balls, Throwing Knives, Tissue Sample, Turtle Scale, Vertebrae.
+* Tidied up code a little.
+* Fixed a few things.
+1.1.0
 * Added Bombs, Bones, Bottles, Cobwebs, Dynamite, Fences, Gels, Grenades, Hooks, Paints, Platforms, Ropes, Shuriken, Wood.
-1.0
-* Initial release
+1.0.0
+* Initial release.
 
 -------------
 NotoriousPyro
