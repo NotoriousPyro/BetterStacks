@@ -3,7 +3,7 @@ BetterStacks mod by NotoriousPyro
 This mod makes the following changes to stack sizes:
 
 Increased to 9999:
-* All Arrows, Blocks, Throwing Knives and Bone Throwing Knives, Bones, Bottles and Bottled Water, Bullets, Cobwebs, Fences, Gels, Musket Balls, Platforms, Ropes, Shuriken, Snowballs, Walls, Wood
+* Arrows, Blocks, Bones, Bottles and Bottled Water, Bullets, Cobwebs, Fences, Gels, Musket Balls, Platforms, Ropes, Shuriken, Snowballs, Throwing Knives and Bone Throwing Knives, Walls, Wood
 
 Increased to 999:
 * Acorn, Bars, Bombs, Feathers, Glowsticks, Grenades, Hooks, Tissue Samples, Torches, Turtle Scales, Vertebrae
@@ -20,7 +20,7 @@ All versions: https://pyronexus.com/downloads/BetterStacks/
 Changelog:
 2.0.0
 * Completely rewrote plugin. Can now be easily configured by people and then compiled.
-* Added Feathers
+* Added Feathers.
 1.3.0
 * Added Glowsticks, Snowballs.
 * Fixed a bug which prevented bombs and a few other things getting the stack bonuses.

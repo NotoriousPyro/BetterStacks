@@ -57,6 +57,7 @@ namespace BetterStacks.Items
 			// 619			Ebonwood
 			// 621			Pearlwood
 			// 911			Shadewood
+			// 931			Flare
 			// 949			Snowball
 			// 1729			Spooky Wood
 			// 2260			Dynasty Wood
@@ -64,19 +65,19 @@ namespace BetterStacks.Items
 			// 2504			Palm Wood
 			// 3111			Pink Gel
 			// 3379			Bone Throwing Knife
-			int[] ItemIDsTo9999 = { 9, 23, 31, 42, 97, 126, 150, 154, 279, 619, 621, 911, 949, 1729, 2260, 2503, 2504, 3379 };
+			int[] ItemIDsTo9999 = { 9, 23, 31, 42, 97, 126, 150, 154, 279, 619, 621, 911, 931, 949, 1729, 2260, 2503, 2504, 3379 };
 
 			if (!ExcludedItemIDs.Contains(item.type) && !ContainsAny(item.name, ExcludedItemNames))
 			{
-				if (ContainsAny(item.name, ItemNamesTo99) || ItemIDsTo99.Contains(item.type))
+				if (ItemIDsTo99.Contains(item.type) || ContainsAny(item.name, ItemNamesTo99))
 				{
 					item.maxStack = 99;
 				}
-				else if (ContainsAny(item.name, ItemNamesTo999) || ItemIDsTo999.Contains(item.type))
+				else if (ItemIDsTo999.Contains(item.type) || ContainsAny(item.name, ItemNamesTo999))
 				{
 					item.maxStack = 999;
 				}
-				else if (ContainsAny(item.name, ItemNamesTo9999) || ItemIDsTo9999.Contains(item.type))
+				else if (ItemIDsTo9999.Contains(item.type) ||ContainsAny(item.name, ItemNamesTo9999))
 				{
 					item.maxStack = 9999;
 				}
