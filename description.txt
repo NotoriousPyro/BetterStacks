@@ -3,33 +3,35 @@ BetterStacks mod by NotoriousPyro
 This mod makes the following changes to stack sizes:
 
 Increased to 9999:
-* Arrows, Blocks, Bones, Bottles and Bottled Water, Bullets, Cobwebs, Fences, Flares, Gels, Musket Balls, Platforms, Ropes, Shuriken, Snowballs, Throwing Knives and Bone Throwing Knives, Walls, Wood
+* Arrow, Block, Bone, Bottle and Bottled Water, Bullet, Cobweb, Fence, Flare, Gel, Glowing Mushroom, Mushroom, Musket Ball, Platform, Rope, Shuriken, Snowball, Throwing Knife and Bone Throwing Knife, Vicious Mushroom, Vile Mushroom, Wall, Wire, Wood
 
 Increased to 999:
-* Acorn, Bars, Bombs, Feathers, Glowsticks, Grenades, Hooks, Tissue Samples, Torches, Turtle Scales, Vertebrae
+* Acorn, Bar, Bomb, Feather, Glowstick, Grenade, Hook, Shadow Scale, Tissue Sample, Torch, Turtle Scale, Vertebrae
 
 Increased to 99:
-* Dynamite, Potions
+* Dynamite, Potion
 
 Any suggestions? Let me know!
 
-Mod page: https://pyronexus.com/terraria-itemstack
-Source: https://github.com/NotoriousPyro/BetterStacks
-All versions: https://pyronexus.com/downloads/BetterStacks/
+Mod page: https://pyronexus.com/go/BetterStacks
+Source: https://pyronexus.com/go/BetterStacks/source
+All versions: https://pyronexus.com/go/BetterStacks/downloads
 
 Changelog:
+2.1.0
+* Added Glowing Mushroom, Mushroom, Shadow Scale, Vicious Mushroom, Vile Mushroom, Wire
 2.0.0
 * Completely rewrote plugin. Can now be easily configured by people and then compiled.
-* Added Feathers, Flares.
+* Added Feather, Flare.
 1.3.0
-* Added Glowsticks, Snowballs.
+* Added Glowstick, Snowball.
 * Fixed a bug which prevented bombs and a few other things getting the stack bonuses.
 1.2.0
-* Added Bone Knives, Musket Balls, Throwing Knives, Tissue Sample, Turtle Scale, Vertebrae.
+* Added Bone Knife, Musket Ball, Throwing Knife, Tissue Sample, Turtle Scale, Vertebrae.
 * Tidied up code a little.
 * Fixed a few things.
 1.1.0
-* Added Bombs, Bones, Bottles, Cobwebs, Dynamite, Fences, Gels, Grenades, Hooks, Paints, Platforms, Ropes, Shuriken, Wood.
+* Added Bomb, Bone, Bottle, Cobweb, Dynamit, Fence, Gel, Grenade, Hook, Paint, Platform, Rope, Shuriken, Wood.
 1.0.0
 * Initial release.
 

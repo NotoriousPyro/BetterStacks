@@ -28,6 +28,7 @@
     <Reference Include="Microsoft.Xna.Framework" />
     <Reference Include="Microsoft.Xna.Framework.Game" />
     <Reference Include="Microsoft.Xna.Framework.Graphics" />
+    <Reference Include="System" />
     <Reference Include="Terraria">
       <HintPath>D:\SteamLibrary\SteamApps\common\Terraria\Terraria.exe</HintPath>
     </Reference>
@@ -37,7 +38,6 @@
     <Compile Include="BetterStacks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>"D:\SteamLibrary\SteamApps\common\Terraria\tModLoaderServer.exe" -build "$(ProjectDir)\"</PostBuildEvent>
